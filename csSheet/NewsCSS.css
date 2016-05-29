@@ -1,0 +1,61 @@
+
+/******* CONTENT ***********/
+
+.content {
+    border:1px solid red;
+    width:74%;
+    float:right;
+}
+
+form{
+    margin:20px 0;
+}
+
+input{
+    background-color:rgba(187, 187, 187, 0.2);
+
+}
+input[type="button"]{
+    border:0;
+    height:18px;
+}
+
+.innerContent {
+    padding:10px;
+    margin-bottom:10px;
+    border-bottom:1px dotted red;
+    width:94%;
+    margin:0 auto;
+    margin-bottom:10px;
+
+}
+.innerContent:last-of-type{
+    border:0;
+}
+
+.innerContent  a {
+    text-decoration:none;
+    margin-top:-2%;
+    color:red;
+    position:relative;
+    right:7%;
+    font-family:sans-serif;
+    font-size:14px;
+    float:right;
+}
+
+.datePost{
+    float:right;
+    color:#808080;
+    padding-left:20px;
+    padding-bottom:10px;
+}
+
+h4{
+    color:#c41010;
+    width:80%;
+    display:inline-block;
+    margin-bottom:10px;
+}
+
+/******* END OF CONTENT ***********/

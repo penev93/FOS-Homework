@@ -1,0 +1,62 @@
+/******* CONTENT ***********/
+
+.content{
+    width:74%;
+    float:right;
+    border:1px solid gray;
+}
+
+.leftSect{
+    float:left;
+    width:50%;
+    margin-bottom:5%;
+}
+
+.rightSect{
+    float:right;
+    width:50%;
+
+}
+
+.innerContent{
+    margin:10px;
+}
+
+
+label{
+    float:left;
+
+}
+
+.sparkle {
+    color:#c41010;
+}
+
+.splitter{
+    margin:10px;
+}
+
+input ,select{
+    float:right;
+    background-color:rgba(224, 236, 232, 0.63);
+
+}
+select{
+    width:48%;
+}
+.submitButt{
+    margin:8%;
+    height:30px;
+    margin-right:0;
+    border:0;
+    float:right;
+    width:20%;
+    color:white;
+    background-color:#c41010;
+}
+
+.error {
+    color:red;
+    font-size:14px;
+}
+/******* END OF CONTENT ***********/

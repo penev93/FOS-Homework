@@ -1,0 +1,84 @@
+
+
+/******* CONTENT ***********/
+
+.content{
+    width:74%;
+    float:right;
+    height:20%;
+    border:1px solid gray;
+}
+
+.leftSect{
+    float:left;
+    width:35%;
+
+}
+
+.rightSect{
+    float:right;
+    width:35%;
+    position:relative;
+    right:70px;
+    top:40px;
+}
+
+label{
+    float:left;
+
+}
+
+.sparkle {
+    color:#c41010;
+}
+
+.splitter{
+    margin:10px;
+}
+
+input ,textarea{
+    float:right;
+    background-color:rgba(224, 236, 232, 0.2);
+
+
+}
+textarea{
+    width:200%;
+    position:relative;
+    left:140%;
+    height:40px;
+}
+.submitButt{
+    margin:8%;
+    height:30px;
+    margin-right:0px;
+    border:0;
+    float:right;
+    width:20%;
+    color:white;
+    background-color:#c41010;
+}
+/******* END OF CONTENT ***********/
+
+
+
+textarea{
+    width:200%;
+	position:relative;
+	left:140%;
+height:40px;
+}
+.submitButt{
+    margin:8%;
+    height:30px;
+    margin-right:0;
+    border:0;
+    float:right;
+    width:20%;
+    color:white;
+    background-color:#c41010;
+}
+/******* END OF CONTENT ***********/
+
+
+

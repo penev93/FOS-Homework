@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding:0;
+}
+/******* FRAME ***********/
+.outer{
+    width:960px;
+    height:940px;
+    margin:0 auto;
+    margin-top:10px;
+    overflow:visible;
+    position:relative;
+
+
+}
+/******* END OF FRAME DESCRIPTION ***********/
+
+/******* HEADER ***********/
+header{
+    margin-bottom:2%;
+}
+.rightFloat > a > img {
+    position:relative;
+    float:right;
+    margin:4px;
+}
+
+.text{
+    font-weight:bold;
+    font-size:22px;
+    float:right;
+}
+
+.text > .secondLine{
+    font-size:12px;
+    color:#c2bebe;
+}
+
+.loginForm{
+    float:right;
+}
+
+.regForm{
+    margin-right:-25%;
+    font-family:sans-serif;
+    font-size:11px;
+    float:right;
+}
+.regForm > a{
+    color:gray;
+    text-decoration:none;
+
+}
+.Loger{
+    color:gray;
+
+}
+/******* END OF HEADER ***********/
+
+
+/******* NAVIGAION BAR ***********/
+.Navigation{
+    height:50px;
+
+}
+.Navigation > ul > li{
+
+    float:left;
+    list-style-type:none;
+    background-image:url("../imgs/buttons1.png");
+    background-repeat:no-repeat;
+    background-size:180px 100px;
+    width:160px;
+    height:49px;
+}
+.Navigation > ul > li:hover{
+    background-image:url("../imgs/buttons1.png");
+    background-size: 230px 170px;
+}
+li > span > a{
+    display:inline-block;
+    width:160px;
+    height:49px;
+    text-align:center;
+    line-height:300%;
+    color:#c41010;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:16px;
+    text-decoration:none;
+}
+
+li > a:hover{
+    color:darkred;
+}
+
+.separator{
+    background-image:url("../imgs/separator2.png");
+    background-repeat:no-repeat;
+    height:49px;
+    float:right;
+}
+
+
+/******* END NAVIGAION BAR ***********/
+
+/******* Validator LOgin ***********/
+#loginForm >  a {
+    width: 3.2%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    border: 2px;
+    border-radius: 20px 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    float: right;
+    right: -2%;
+    top: -5%;
+}
+
+#loginForm {
+    width: 550px;
+    display: none;
+    border: 2px solid gray;
+    height: 200px;
+    overflow:visible;
+    background-color:white;
+    z-index: 3;
+    position: absolute;
+    margin:0 auto;
+    left:25%;
+
+}
+
+
+
+.main {
+    position:relative;
+    padding-top: 10px;
+    width: 42%;
+    margin: 0 auto;
+}
+
+#loginForm > input[type="text"] {
+    background-color: rgba(238, 228, 228, 0.27);
+    float: right;
+}
+
+#loginForm  section {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#login{
+    background-color: #8b0000;
+    display:inline-block;
+    color: white;
+    width: 30%;
+    height: 30px;
+    border: 0;
+    vertical-align: middle;
+    position: relative;
+    left:35%;
+
+}
+/******* Validator LOgin  END ***********/
+/******* !!!!!!!!! MAIN SECTION !!!!!!!!!!!! ***********/
+
+
+.indexSec{
+    position:relative;
+    margin-top:10px;
+
+}
+/******* ARTICLE  BAR ***********/
+
+
+aside{
+    float:left;
+    width:24%;
+    padding-left:1.6%;
+    margin-bottom:2%;
+}
+
+.Cicero{
+    width:60%;
+}
+
+
+
+.Cicero > li {
+    list-style-image:url("../imgs/liststyle.png");
+    color:#808080;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:12px;
+    border-bottom:1px solid lightgray;
+    line-height:220%;
+    margin-bottom:7px;
+}
+.Cicero > li > a:hover {
+    color:#c41010;
+}
+
+/******* END ARTICLE  BAR ***********/
+
+
+/******* CONTENT ***********/
+
+
+
+
+/******* END OF CONTENT ***********/
+
+
+/******* ARTICLE ***********/
+
+article{
+    clear:both;
+    background: -moz-linear-gradient(top , rgba(210, 204, 204, 0.2) 0%,white 100%);
+    background: -webkit-linear-gradient(top , rgba(210, 204, 204, 0.2) 0%,white 100%);
+    background: -o-linear-gradient(top , rgba(210, 204, 204, 0.2) 0%,white 100%);
+    background: -ms-linear-gradient(top , rgba(210, 204, 204, 0.2) 0%,white 100%);
+    background: linear-gradient(top , rgba(210, 204, 204, 0.2) 0%,white 100%);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+
+article > span{
+    float:right;
+    font-size:12px;
+    padding-top:4px;
+
+    padding-left:40px;
+    width:74%;
+    font-family:sans-serif;
+    color:lightgray;
+
+}
+/******* END OF ARTICLE ***********/
+
+/******* !!!!!!!!! END MAIN SECTION !!!!!!!!!!!! ***********/
+
+
+/******* FOOOTER ***********/
+footer{
+    position:relative;
+    border-top:2px groove lightgray;
+
+}
+
+/***** LEFT FOOTER PART *********/
+.leftFooter{
+    position:relative;
+    background-image:url("../imgs/logo-footer.png");
+    background-repeat:no-repeat;
+    background-position:top left;
+    float:left;
+    width:44%;
+}
+
+.leftFooter > span{
+    float:right;
+    font-size:12px;
+    padding-right:17%;
+    color:gray;
+
+}
+/***** END LEFT FOOTER PART *********/
+
+/***** RIGHT FOOTER PART *********/
+.rightFooter{
+    float:right;
+    width:55%;
+}
+
+#foot {
+    float:right;
+    width:80%;
+}
+
+li > a{
+
+    color:gray;
+    list-style-type:none;
+    font-size:14px;
+    text-decoration:none;
+}
+
+#foot li {
+    list-style-type:none;
+    float: left;
+    border-right: 1px solid lightgray;
+    padding: 0.5em;
+
+}
+
+html > /**/ body #foot li:last-of-type {
+    border: 0;
+
+}
+/***** END RIGHT FOOTER PART *********/
+
+
+/******* END OF FOOTER ***********/
+
+.submenu{
+    position:relative;
+    left:90%;
+}

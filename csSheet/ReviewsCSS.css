@@ -1,0 +1,122 @@
+/******* CONTENT ***********/
+
+.content {
+    border:1px solid lightgray;
+    width:74%;
+    float:right;
+}
+.content img{
+
+    margin:-2%;
+    float:right;
+    background-image:url('../imgs/stars.png');
+    height:16px;
+    width:80px;
+
+}
+
+
+.star_1{
+
+    background-position-y:20%;
+}
+.star_2{
+    background-position-y:40%;
+}
+.star_3{
+    background-position-y:60%;
+}
+.star_4{
+    background-position-y:80%;
+ }
+.star_5{
+    background-position-y:100px;
+}
+
+
+.innerContent{
+    padding:15px;
+
+    margin-bottom:10px;
+    border-bottom:1px dotted red;
+    width:94%;
+    margin:0 auto;
+
+
+}
+
+h2{
+    color:#c41010;
+    font-family:sans-serif;
+    font-size:36px;
+}
+.content .splitter:last-of-type{
+    border:0;
+}
+
+
+.datePost{
+
+    color:#808080;
+}
+
+h4{
+    color:#c41010;
+    width:80%;
+    display:inline-block;
+    margin-bottom:10px;
+}
+
+.leftSect{
+    width:50%;
+    float:left;
+}
+
+.rightSect{
+    float:right;
+    width:50%;
+}
+
+
+.sparkle{
+    color:#c41010;
+}
+
+.review{
+    width:96%;
+    margin:0 auto;
+}
+
+select{
+    width:48%;
+}
+
+input,select,textarea{
+    float:right;
+    background-color:rgba(210, 204, 204, 0.2);
+}
+
+.splitInput{
+    margin:7px;
+}
+
+.content > label{
+    position:relative;
+    left:23%;
+}
+.submitButt{
+
+    height:30px;
+    margin-top:10px;
+    border:0;
+    float:right;
+    width:10%;
+    color:white;
+    background-color:#c41010;
+    margin-bottom:10px;
+}
+textarea{
+    height:70px;
+    float:right;
+}
+/******* END OF CONTENT ***********/

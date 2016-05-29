@@ -1,0 +1,28 @@
+
+
+/******* CONTENT ***********/
+
+
+.content{  
+    float:right;
+    height:22%;
+    width:74%;
+    border:1px solid lightgray;
+	background:none;
+}
+
+h2{
+    font-family:sans-serif;
+    color:#c41010;
+    margin-top:5px;
+    margin-left:5px;
+
+}
+p{
+margin:10px;
+}
+
+
+/******* END OF CONTENT ***********/
+
+
